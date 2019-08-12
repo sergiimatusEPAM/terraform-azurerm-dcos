@@ -177,18 +177,18 @@ variable "additional_private_agent_ips" {
 }
 
 variable "additional_windows_private_agent_ips" {
-  description = "Additional Windows private agent ips"
+  description = "Additional Windows private agent IPs"
   default     = []
 }
 
 variable "additional_windows_private_agent_passwords" {
-  description = "Additional Windows private agent passwords to be used for WinRM"
-  default     = []
+  description = "Additonal Windows private agent passwords to be used for WinRM"
+  default     = ""
 }
 
 variable "additional_windows_private_agent_os_user" {
-  description = "Additional Windows private agent os user to be used for WinRM"
-  default     = "Administrator"
+  description = "Additional Windows private agent OS user to be used for WinRM"
+  default     = "dcosadmin"
 }
 
 variable "ansible_bundled_container" {
