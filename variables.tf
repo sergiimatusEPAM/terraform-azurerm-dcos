@@ -183,7 +183,7 @@ variable "additional_windows_private_agent_ips" {
 
 variable "additional_windows_private_agent_passwords" {
   description = "Additonal Windows private agent passwords to be used for WinRM"
-  default     = ""
+  default     = []
 }
 
 variable "additional_windows_private_agent_os_user" {
